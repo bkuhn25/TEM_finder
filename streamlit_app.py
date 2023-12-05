@@ -13,7 +13,7 @@ csv_path = 'TEM_providers.csv'  # Replace with the path to your CSV file
 df = pd.read_csv(csv_path)
 
 # Set the page config as wide
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", initial_sidebar_state="expanded")
 
 # st.text("Research is hard enough as it is.\nFinding the right TEM provider shouldn't be.")
 
@@ -21,7 +21,8 @@ tab1, tab2, tab3, tab4 = st.tabs(["TEM Finder", "Guide", "About", "Contact"])
 
 with tab1:
     # Display the table
-    st.title('TEM Finder')
+    st.title('Transmission Eelectron Microscopy (TEM) Finder')
+    st.markdown("## Find the right TEM provider for your needs")
 
     # Filtering options
     st.sidebar.title('Filter Options')
@@ -35,14 +36,14 @@ with tab1:
 
     # Multi-select filter for type of institution
     selected_institution_types = st.sidebar.multiselect(
-        "Select type of institution",
+        "Select the type of institution you want to work with",
         df["Type of institution"].unique(),
         default=df["Type of institution"].unique()
     )
 
     # Multi-select filter for type of organization
     selected_organization_types = st.sidebar.multiselect(
-        "Select organization types the provider serves",
+        "Select your organization type",
         ["Clinical", "Research",],
         default=["Research"]
     )
