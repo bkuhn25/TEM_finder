@@ -65,6 +65,9 @@ st.sidebar.title('Filter Options')
 st.sidebar.multiselect('SEM', df['SEM'].unique())
 st.sidebar.multiselect('Cryo-EM', df['Cryo-EM'].unique())
 
+# Type of institution filtering
+st.sidebar.multiselect('Type of institution', df['Type of institution'].unique())
+
 # # Add filtering widgets based on column types
 # for column in df.columns:
 #     filter_options = st.sidebar.multiselect(f'Select {column}:', df[column].unique())
