@@ -1,17 +1,17 @@
-Name,Type of institution,Clinical,Research,SEM ,Cryo-TEM,Sample prep,Website,Phone,Email,Additional Contact Info,How to get a quote
-PennState College of Medicine,University,n/a,yes,yes,yes,yes,https://research.med.psu.edu/core-facilities/transmission-electron-microscopy/,717-531-4036,hchen3@pennstatehealth.psu.edu,"**Han Chen**
+Name,Type of institution,Clinical,Research,TEM,SEM,Cryo-EM,Sample prep,Website,Phone,Email,Additional Contact Info,How to get a quote
+PennState College of Medicine,University,n/a,yes,yes,yes,yes,yes,https://research.med.psu.edu/core-facilities/transmission-electron-microscopy/,717-531-4036,hchen3@pennstatehealth.psu.edu,"**Han Chen**
 - **Role:** Manager
 - **Phone:** 717-531-4036
 - **Email:** hchen3@pennstatehealth.psu.edu
 ",Reach out to manager via phone or email
-University at Buffalo,University,no,yes,no,yes,yes,https://medicine.buffalo.edu/centers/hsccf/facilties/electron-microscopy-lab.html,(716) 829-3330,dcm22@buffalo.edu,"**Donald MacFarland**
+University at Buffalo,University,no,yes,yes,no,yes,yes,https://medicine.buffalo.edu/centers/hsccf/facilties/electron-microscopy-lab.html,(716) 829-3330,dcm22@buffalo.edu,"**Donald MacFarland**
 - **Role:** Lead Electron Microscopist
 - **Department:** Pathology and Anatomical Sciences
 - **Address:** 955 Main Street, Room B2206A, Buffalo, NY 14203
 - **Phone:** (716) 829-3330
 - **Fax:** (716) 829-2086
 - **Email:** dcm22@buffalo.edu",Contact Donald MacFarland the lead electron microscopist
-UT Health San Antonio,University,yes,yes,yes,no,yes,https://lsom.uthscsa.edu/pathology/reference-labs/electron-microscopy-laboratory/,(210) 567-4055,Lif2@uthscsa.edu,"- **Lab Number:** (210) 567-4055
+UT Health San Antonio,University,yes,yes,yes,yes,no,yes,https://lsom.uthscsa.edu/pathology/reference-labs/electron-microscopy-laboratory/,(210) 567-4055,Lif2@uthscsa.edu,"- **Lab Number:** (210) 567-4055
 
 - **Medical Director:**
   - Faqian Li, M.D.
@@ -24,9 +24,9 @@ UT Health San Antonio,University,yes,yes,yes,no,yes,https://lsom.uthscsa.edu/pat
 - **Electron Microscopy Technician:**
   - Monica Alarcon
   - Email: alarconm@uthscsa.edu",Reach out to the lab by phone or contact the staff directly by email
-University of Florida,University,no,yes,yes,yes,yes,https://biotech.ufl.edu/electron-microscopy/,(352) 392-1184,ICBR-ElectronMicroscopy@ad.ufl.edu,"- Email: ICBR-ElectronMicroscopy@ad.ufl.edu
+University of Florida,University,no,yes,yes,yes,yes,yes,https://biotech.ufl.edu/electron-microscopy/,(352) 392-1184,ICBR-ElectronMicroscopy@ad.ufl.edu,"- Email: ICBR-ElectronMicroscopy@ad.ufl.edu
 - Phone: (352) 392-1184",Use iLab to request a consultation https://biotech.ufl.edu/wp-content/uploads/2019/06/Request-New-ServConsult.pdf
-Creative Bio Array,Private,yes,yes,yes,yes,yes,https://www.creative-bioarray.com/Services/Transmission-Electron-Microscopy.htm,1-631-626-9181,info@creative-bioarray.com,"- **Contact Form:**
+Creative Bio Array,Private,yes,yes,yes,yes,yes,yes,https://www.creative-bioarray.com/Services/Transmission-Electron-Microscopy.htm,1-631-626-9181,info@creative-bioarray.com,"- **Contact Form:**
   - [Transmission Electron Microscopy (TEM) Service](https://www.creative-bioarray.com/inquiry?i_pname=Transmission%20Electron%20Microscopy%20(TEM)%20Service)
 
 - **Tel:**
@@ -39,19 +39,19 @@ Creative Bio Array,Private,yes,yes,yes,yes,yes,https://www.creative-bioarray.com
 - **Email:**
   - info@creative-bioarray.com
 ",Fill out their contact form
-Charles River,Private,yes,yes,yes,yes,yes,https://www.criver.com/products-services/safety-assessment/pathology-services/electron-microscopy?region=3601,n/a,n/a,[Consult Charles River Pathology Services - How can we support your pathology needs?](https://www.criver.com/consult-pi-sa-how-can-we-support-your-pathology-needs),Fill out their contact form
-SGS,Private,yes,yes,no,no,yes,https://www.sgs.com/en-ca/services/transmission-electron-microscopy-services,n/a,n/a,[SGS Contact Form](https://www.sgs.com/en-ca/contact-form),Fill out their contact form
-MD Anderson,Private,yes,yes,yes,no,yes,https://www.mdanderson.org/research/research-resources/core-facilities/high-resolution-electron-microscopy-facility.html,713-792-9142,rlangley@mdanderson.org,"Investigators requiring electron microscopy services should contact Robert Langley:
+Charles River,Private,yes,yes,yes,yes,yes,yes,https://www.criver.com/products-services/safety-assessment/pathology-services/electron-microscopy?region=3601,n/a,n/a,[Consult Charles River Pathology Services - How can we support your pathology needs?](https://www.criver.com/consult-pi-sa-how-can-we-support-your-pathology-needs),Fill out their contact form
+SGS,Private,yes,yes,yes,no,no,yes,https://www.sgs.com/en-ca/services/transmission-electron-microscopy-services,n/a,n/a,[SGS Contact Form](https://www.sgs.com/en-ca/contact-form),Fill out their contact form
+MD Anderson,Private,yes,yes,yes,yes,no,yes,https://www.mdanderson.org/research/research-resources/core-facilities/high-resolution-electron-microscopy-facility.html,713-792-9142,rlangley@mdanderson.org,"Investigators requiring electron microscopy services should contact Robert Langley:
 
 - **Phone:** 713-792-9142
 - **Email:** rlangley@mdanderson.org
 
 to discuss the feasibility of the study.",Contact Rob Langley
-Alpha Nano Tech,Private,yes,yes,yes,yes,yes,https://www.alphanano.tech/items/transmission-electron-microscopy-,1 (919) 884-8376,info@alphanano.tech,"- **Contact Form:** [AlphaNano Contact Form](https://www.alphanano.tech/contact)
+Alpha Nano Tech,Private,yes,yes,yes,yes,yes,yes,https://www.alphanano.tech/items/transmission-electron-microscopy-,1 (919) 884-8376,info@alphanano.tech,"- **Contact Form:** [AlphaNano Contact Form](https://www.alphanano.tech/contact)
 - **Phone:** +1 (919) 884-8376
 - **Email:** info@alphanano.tech
 ","Fill out their contact form, call, or email"
-University of Maryland School of Medicine,University,yes,yes,yes,yes,yes,https://www.medschool.umaryland.edu/cibr/core/em/,410-706-7992,Coreimaging@umaryland.edu,"- **Office:** 410-706-7992
+University of Maryland School of Medicine,University,yes,yes,yes,yes,yes,yes,https://www.medschool.umaryland.edu/cibr/core/em/,410-706-7992,Coreimaging@umaryland.edu,"- **Office:** 410-706-7992
 - **Email:** Coreimaging@umaryland.edu
 
 - Christine Brantner, PhD (Director)

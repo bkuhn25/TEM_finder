@@ -21,6 +21,12 @@ for index, row in df.iterrows():
         st.header("Name")
         st.markdown(f"[{row['Name']}]({row['Website']})")
 
+        st.header("Services")
+        st.markdown(markdown_for_service('TEM'))
+        st.markdown(markdown_for_service('SEM'))
+        st.markdown(markdown_for_service('Cryo-EM'))
+        st.markdown(markdown_for_service('Sample prep'))
+
     with col2:
         st.header("Type")
         st.text(row['Type of institution'])
