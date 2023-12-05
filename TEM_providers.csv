@@ -1,17 +1,64 @@
-Name,Type of institution,Clinical,Research,TEM,SEM,Cryo-EM,Sample prep,Website,Phone,Email,Additional Contact Info,How to get a quote
-PennState College of Medicine,University,n/a,yes,yes,yes,yes,yes,https://research.med.psu.edu/core-facilities/transmission-electron-microscopy/,717-531-4036,hchen3@pennstatehealth.psu.edu,"**Han Chen**
+Name,Type of institution,Clinical,Research,TEM,SEM,Cryo-EM,Sample prep,Website,Phone,Email,Contact Form,Detailed Services,Additional Contact Info,How to get a quote
+PennState College of Medicine,University,n/a,yes,yes,yes,yes,yes,https://research.med.psu.edu/core-facilities/transmission-electron-microscopy/,717-531-4036,hchen3@pennstatehealth.psu.edu,n/a,"- **TEM Facility Services:**
+  - Project Consultation
+  - Education and Training
+    - New User Self-Service
+    - Full-Service TEM
+- **Available Services:**
+  - Sample Preparation
+  - Fixation
+  - Embedding
+  - Ultra-Microtomy
+  - Staining
+  - TEM Imaging
+  - Immuno-Localization (Immunogold EM)
+  - Negative Staining","**Han Chen**
 - **Role:** Manager
 - **Phone:** 717-531-4036
 - **Email:** hchen3@pennstatehealth.psu.edu
 ",Reach out to manager via phone or email
-University at Buffalo,University,no,yes,yes,no,yes,yes,https://medicine.buffalo.edu/centers/hsccf/facilties/electron-microscopy-lab.html,(716) 829-3330,dcm22@buffalo.edu,"**Donald MacFarland**
+University at Buffalo,University,no,yes,yes,no,yes,yes,https://medicine.buffalo.edu/centers/hsccf/facilties/electron-microscopy-lab.html,(716) 829-3330,dcm22@buffalo.edu,n/a,"- **High Magnification Imaging:**
+  - Up to 600,000x magnification
+
+- **Post-Embedding Labeling Techniques:**
+  
+- **Sample Preparation:**
+  
+- **Standard Transmission Electron Microscope (TEM):**
+  
+- **Ultrastructural Analysis:**
+  - Of cells and tissue
+
+services are available for use for a fee by students, faculty, staff, and outside institutions and companies for research projects and instruction.
+","**Donald MacFarland**
 - **Role:** Lead Electron Microscopist
 - **Department:** Pathology and Anatomical Sciences
 - **Address:** 955 Main Street, Room B2206A, Buffalo, NY 14203
 - **Phone:** (716) 829-3330
 - **Fax:** (716) 829-2086
 - **Email:** dcm22@buffalo.edu",Contact Donald MacFarland the lead electron microscopist
-UT Health San Antonio,University,yes,yes,yes,yes,no,yes,https://lsom.uthscsa.edu/pathology/reference-labs/electron-microscopy-laboratory/,(210) 567-4055,Lif2@uthscsa.edu,"- **Lab Number:** (210) 567-4055
+UT Health San Antonio,University,yes,yes,yes,yes,no,yes,https://lsom.uthscsa.edu/pathology/reference-labs/electron-microscopy-laboratory/,(210) 567-4055,Lif2@uthscsa.edu,n/a,"- **Clinical Transmission Electron Microscopy:**
+  - Renal Pathology Services
+  - Muscle Biopsy
+  - Nerve Biopsy
+  - Malignant and non-malignant tissue evaluations
+  - Platelet whole mount
+  - Cilia Biopsy
+  - Heart Biopsy
+
+- **Research Transmission Electron Microscopy:**
+  - Biological and non-biological samples
+  - Negative stain whole mount
+  - Equipment training
+  - Project consultation
+
+- **Research Scanning Electron Microscopy:**
+  - EDS X-ray microanalysis
+  - Electron Backscatter Diffraction (EBSD)
+  - Biological and non-biological samples
+  - Equipment training
+  - Project consultation
+","- **Lab Number:** (210) 567-4055
 
 - **Medical Director:**
   - Faqian Li, M.D.
@@ -24,9 +71,25 @@ UT Health San Antonio,University,yes,yes,yes,yes,no,yes,https://lsom.uthscsa.edu
 - **Electron Microscopy Technician:**
   - Monica Alarcon
   - Email: alarconm@uthscsa.edu",Reach out to the lab by phone or contact the staff directly by email
-University of Florida,University,no,yes,yes,yes,yes,yes,https://biotech.ufl.edu/electron-microscopy/,(352) 392-1184,ICBR-ElectronMicroscopy@ad.ufl.edu,"- Email: ICBR-ElectronMicroscopy@ad.ufl.edu
-- Phone: (352) 392-1184",Use iLab to request a consultation https://biotech.ufl.edu/wp-content/uploads/2019/06/Request-New-ServConsult.pdf
-Creative Bio Array,Private,yes,yes,yes,yes,yes,yes,https://www.creative-bioarray.com/Services/Transmission-Electron-Microscopy.htm,1-631-626-9181,info@creative-bioarray.com,"- **Contact Form:**
+University of Florida,University,no,yes,yes,yes,yes,yes,https://biotech.ufl.edu/electron-microscopy/,(352) 392-1184,ICBR-ElectronMicroscopy@ad.ufl.edu,n/a,"- **Major Service Categories:**
+  - Room temperature and cryo transmission and scanning electron microscopy
+  - Confocal laser scanning microscopy
+  - Sample preparation
+  - User training",n/a,Use iLab to request a consultation https://biotech.ufl.edu/wp-content/uploads/2019/06/Request-New-ServConsult.pdf
+Creative Bio Array,Private,yes,yes,yes,yes,yes,yes,https://www.creative-bioarray.com/Services/Transmission-Electron-Microscopy.htm,1-631-626-9181,info@creative-bioarray.com,[Transmission Electron Microscopy (TEM) Service](https://www.creative-bioarray.com/inquiry?i_pname=Transmission%20Electron%20Microscopy%20(TEM)%20Service),"- Conventional fixation, dehydration, and embedding
+- Specimen sectioning
+- Negative Staining for samples (Bacteria, virus, Lipids, etc.)
+- Specific nanoparticle staining
+- Nanoparticle size distributions
+- Immunoelectron microscopy
+- Phase identification
+- Electron diffraction
+- Elemental analysis
+- Chemical state analysis
+- Viral and particle quantification
+- High-resolution images
+- Elemental analyses as spot line profiles and elemental maps
+- Professional pathology consultation","- **Contact Form:**
   - [Transmission Electron Microscopy (TEM) Service](https://www.creative-bioarray.com/inquiry?i_pname=Transmission%20Electron%20Microscopy%20(TEM)%20Service)
 
 - **Tel:**
@@ -39,19 +102,100 @@ Creative Bio Array,Private,yes,yes,yes,yes,yes,yes,https://www.creative-bioarray
 - **Email:**
   - info@creative-bioarray.com
 ",Fill out their contact form
-Charles River,Private,yes,yes,yes,yes,yes,yes,https://www.criver.com/products-services/safety-assessment/pathology-services/electron-microscopy?region=3601,n/a,n/a,[Consult Charles River Pathology Services - How can we support your pathology needs?](https://www.criver.com/consult-pi-sa-how-can-we-support-your-pathology-needs),Fill out their contact form
-SGS,Private,yes,yes,yes,no,no,yes,https://www.sgs.com/en-ca/services/transmission-electron-microscopy-services,n/a,n/a,[SGS Contact Form](https://www.sgs.com/en-ca/contact-form),Fill out their contact form
-MD Anderson,Private,yes,yes,yes,yes,no,yes,https://www.mdanderson.org/research/research-resources/core-facilities/high-resolution-electron-microscopy-facility.html,713-792-9142,rlangley@mdanderson.org,"Investigators requiring electron microscopy services should contact Robert Langley:
+Charles River,Private,yes,yes,yes,yes,yes,yes,https://www.criver.com/products-services/safety-assessment/pathology-services/electron-microscopy?region=3601,n/a,n/a,[Consult Charles River Pathology Services - How can we support your pathology needs?](https://www.criver.com/consult-pi-sa-how-can-we-support-your-pathology-needs),"- **ELECTRON MICROSCOPY SERVICES:**
+  - Transmission electron microscopy (TEM)
+  - Field emission scanning electron microscopy (FE-SEM)
+  - Energy-Dispersive X-ray Spectroscopy (EDS)
+  - Cryo-electron microscopy (cryo-EM) for hit design through lead optimization
+  - Nanoparticle/nanomaterial electron microscopy
+  - Semi-quantitative analysis using artificial intelligence-based algorithms
+  - High-throughput quantification of full and empty viral capsids
+  - Viral particle quantification for biologics manufacturing
+
+- **ELECTRON MICROSCOPY APPLICATIONS:**
+  - Viral clearance assays for biologics manufacturing
+  - Characterization of animal models
+  - Proof-of-concept
+  - Detection and characterization of on/off target tissue, cell, and organelle changes
+  - Understanding mechanism of action (MoA)
+  - Investigation of light microscopic changes
+  - Characterization of red and white blood cell morphology
+  - Investigation of nanomaterial structure and tissue interaction
+  - Detection of surface deposits and changes
+  - Cell culture contamination identification
+  - Biomanufacturing process validation
+  - Elemental analysis of medical devices
+  - Detection of sub-cellular therapeutic targets
+  - Protein polishing and cryo-EM for the final structure
+  - Structural biology to inform drug discovery from hit design through lead optimization",n/a,Fill out their contact form
+SGS,Private,yes,yes,yes,no,no,yes,https://www.sgs.com/en-ca/services/transmission-electron-microscopy-services,n/a,n/a,[SGS Contact Form](https://www.sgs.com/en-ca/contact-form),"- Gain accurate visualization of virus particles in biological fluids and in vitro through our TEM services.
+- Acquire direct visualization of particle size and morphology (intra- and extra-cellular).
+- Identify viruses in biological samples.
+- Observe viruses, virus-like particles, adventitious, and other extraneous agents by TEM of at least 200 cell profiles.
+- Identify and characterize virus particles through our negative stain electron microscopy (NSEM) testing.
+- Monitor retroviral load quantities in fermenter bulk harvest material prior to downstream purification/processing using our negative staining techniques.
+- Testing for: Master cell banks, Working cell banks, Cell lines, Culture supernatants, Fermenter bulk harvests, Vaccines.",n/a,Fill out their contact form
+MD Anderson,Private,yes,yes,yes,yes,no,yes,https://www.mdanderson.org/research/research-resources/core-facilities/high-resolution-electron-microscopy-facility.html,713-792-9142,rlangley@mdanderson.org,,"- TEM Analysis
+- SEM Analysis
+","Investigators requiring electron microscopy services should contact Robert Langley:
 
 - **Phone:** 713-792-9142
 - **Email:** rlangley@mdanderson.org
 
 to discuss the feasibility of the study.",Contact Rob Langley
-Alpha Nano Tech,Private,yes,yes,yes,yes,yes,yes,https://www.alphanano.tech/items/transmission-electron-microscopy-,1 (919) 884-8376,info@alphanano.tech,"- **Contact Form:** [AlphaNano Contact Form](https://www.alphanano.tech/contact)
-- **Phone:** +1 (919) 884-8376
-- **Email:** info@alphanano.tech
-","Fill out their contact form, call, or email"
-University of Maryland School of Medicine,University,yes,yes,yes,yes,yes,yes,https://www.medschool.umaryland.edu/cibr/core/em/,410-706-7992,Coreimaging@umaryland.edu,"- **Office:** 410-706-7992
+Alpha Nano Tech,Private,yes,yes,yes,yes,yes,yes,https://www.alphanano.tech/items/transmission-electron-microscopy-,1 (919) 884-8376,info@alphanano.tech,[AlphaNano Contact Form](https://www.alphanano.tech/contact),"**Our EM Exosome Services:**
+- Negative staining
+- Immunoelectron microscopy
+- Size distribution analysis
+- Cryo-electron microscopy
+
+**Features:**
+- Qualitative and quantitative analysis
+- Highly experienced scientific team
+- Consistent reproducible results
+
+TEM is the best method to cross-validate particle size and size distribution data acquired from other methods, such as Nanoparticle Tracking Analysis (NTA), dynamic light scattering (DLS), or tunable resistive pulse sensing (TRPS).
+
+Immunogold TEM is a direct and powerful tool for the phenotypic characterization of EVs in addition to traditional TEM and protein analysis.
+
+Our SEM technique allows for high-resolution imaging of particles in the sub-micron range. This means that we can study the fine details of your nanoparticles and exosomes down to their morphology and surface characteristics.",n/a,"Fill out their contact form, call, or email"
+University of Maryland School of Medicine,University,yes,yes,yes,yes,yes,yes,https://www.medschool.umaryland.edu/cibr/core/em/,410-706-7992,Coreimaging@umaryland.edu,n/a,"- Conventional TEM sample preparation
+  - Embedding in various types of resin
+  - Ultrathin sectioning
+
+- Conventional SEM sample preparation
+  - Chemical dehydration
+  - Critical point drying
+  - Sputter coating
+
+- Cryo-sample preparation for both TEM and SEM
+  - High-pressure freezing
+  - Freeze substitution
+  - Cryo-ultramicrotomy
+  - Plunge freezing
+  - Freeze fracture
+
+- Immuno electron microscopy
+  - Pre-embedding
+  - Post embedding
+  - Takuyasu methods
+
+- Negative staining of purified macromolecular complexes, bacteria, viruses, liposomes, nanoparticles, or viral-like particles (VLP)
+
+- Advanced microscopy techniques
+  - CryoEM
+  - Correlative LM/EM (CLEM)
+  - 3D EM
+
+- Electron microscope imaging for trained or novice users
+
+- Advanced consultation and training of electron microscopy-related techniques and equipment usage
+
+- Annual Current Electron Microscopy Techniques workshop
+
+- Annual Ultramicrotomy Minicourse
+
+- Instrument demonstration","- **Office:** 410-706-7992
 - **Email:** Coreimaging@umaryland.edu
 
 - Christine Brantner, PhD (Director)

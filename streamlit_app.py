@@ -31,6 +31,12 @@ for index, row in df.iterrows():
         st.header("Type")
         st.text(row['Type of institution'])
 
+        st.header("Contact Info")
+        st.markdown(f"Phone: {row['Phone']}")
+        st.markdown(f"Email: {row['Email']}")
+        if pd.notna(row['Contact Form']):
+            st.markdown(f"Contact Form: {row['Contact Form']}")
+
       
     with col3:
         st.header("Serving")
@@ -38,9 +44,17 @@ for index, row in df.iterrows():
         st.markdown(markdown_for_service('Research'))
         st.markdown(markdown_for_service('Clinical'))
 
-        # refactor the markdown above to be a function that takes in a string and returns the markdown
+        st.header("Best way to contact")
+        st.markdown(row['How to get a quote'])
         
 
+    with st.expander("More services info"):
+        st.markdown(f"{row['Detailed Services']}")
+
+    if pd.notna(row['Additional Contact Info']):
+        with st.expander("More contact info"):
+            st.markdown(f"{row['Additional Contact Info']}")
+        
 
     st.write('---')
 
