@@ -58,11 +58,12 @@ for index, row in df.iterrows():
 
     st.write('---')
 
-# # Filtering options
-# st.sidebar.title('Filter Options')
+# Filtering options
+st.sidebar.title('Filter Options')
 
-# # Filtering options
-# st.sidebar.title('Filter Options')
+# Services filtering
+st.sidebar.multiselect('SEM', df['SEM'].unique())
+st.sidebar.multiselect('Cryo-EM', df['Cryo-EM'].unique())
 
 # # Add filtering widgets based on column types
 # for column in df.columns:
