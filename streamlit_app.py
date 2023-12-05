@@ -8,12 +8,11 @@ def markdown_for_service(service: str):
 csv_path = 'TEM_providers.csv'  # Replace with the path to your CSV file
 df = pd.read_csv(csv_path)
 
+# Set the page config as wide
+st.set_page_config(layout="wide")
+
 # Display the table
 st.title('TEM Finder')
-
-# Show the raw data as a table
-st.write('## Raw Data')
-st.dataframe(df)
 
 # Filtering options
 st.sidebar.title('Filter Options')
@@ -44,6 +43,9 @@ filtered_df = df[
     (df["Type of institution"].isin(selected_institution_types)) &
     (df[selected_organization_types].apply(lambda row: all(val == "yes" for val in row), axis=1))
 ]
+
+st.text(f"Showing {len(filtered_df)} of {len(df)} providers")
+st.write('---')
 
 for index, row in filtered_df.iterrows():
     col1, col2, col3 = st.columns(3)
