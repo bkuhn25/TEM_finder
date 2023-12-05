@@ -15,7 +15,37 @@ st.title('TEM Finder')
 st.write('## Raw Data')
 st.dataframe(df)
 
-for index, row in df.iterrows():
+# Filtering options
+st.sidebar.title('Filter Options')
+
+# Multi-select filter for services
+selected_services = st.sidebar.multiselect(
+    "Select services you need",
+    ["TEM", "SEM", "Cryo-EM", "Sample prep"]
+)
+
+# Multi-select filter for type of institution
+selected_institution_types = st.sidebar.multiselect(
+    "Select type of institution",
+    df["Type of institution"].unique(),
+    default=df["Type of institution"].unique()
+)
+
+# Multi-select filter for type of organization
+selected_organization_types = st.sidebar.multiselect(
+    "Select organization types the provider serves",
+    ["Clinical", "Research",],
+    default=["Clinical", "Research"]
+)
+
+# Filter DataFrame based on selected services and institution types
+filtered_df = df[
+    (df[selected_services].apply(lambda row: all(val == "yes" for val in row), axis=1)) &
+    (df["Type of institution"].isin(selected_institution_types)) &
+    (df[selected_organization_types].apply(lambda row: all(val == "yes" for val in row), axis=1))
+]
+
+for index, row in filtered_df.iterrows():
     col1, col2, col3 = st.columns(3)
     with col1:
         st.header("Name")
@@ -57,16 +87,6 @@ for index, row in df.iterrows():
         
 
     st.write('---')
-
-# Filtering options
-st.sidebar.title('Filter Options')
-
-# Services filtering
-st.sidebar.multiselect('SEM', df['SEM'].unique())
-st.sidebar.multiselect('Cryo-EM', df['Cryo-EM'].unique())
-
-# Type of institution filtering
-st.sidebar.multiselect('Type of institution', df['Type of institution'].unique())
 
 # # Add filtering widgets based on column types
 # for column in df.columns:
