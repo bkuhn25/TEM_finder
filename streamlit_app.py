@@ -2,7 +2,11 @@ import streamlit as st
 import pandas as pd
 
 def markdown_for_service(service: str):
-    return f"**{service.title()}:** {' :white_check_mark:' if row[service] == 'yes' else ':x:'}"
+    title_col, value_col = st.columns(2)
+    with title_col:
+        st.markdown(f"**{service.title()}:**")
+    with value_col:
+        st.markdown(':white_check_mark:' if row[service] == 'yes' else ':x:')
 
 # Load the CSV data
 csv_path = 'TEM_providers.csv'  # Replace with the path to your CSV file
@@ -20,7 +24,8 @@ st.sidebar.title('Filter Options')
 # Multi-select filter for services
 selected_services = st.sidebar.multiselect(
     "Select services you need",
-    ["TEM", "SEM", "Cryo-EM", "Sample prep"]
+    ["TEM", "SEM", "Cryo-EM", "Sample prep"],
+    default=["TEM"]
 )
 
 # Multi-select filter for type of institution
@@ -34,7 +39,7 @@ selected_institution_types = st.sidebar.multiselect(
 selected_organization_types = st.sidebar.multiselect(
     "Select organization types the provider serves",
     ["Clinical", "Research",],
-    default=["Clinical", "Research"]
+    default=["Research"]
 )
 
 # Filter DataFrame based on selected services and institution types
@@ -49,35 +54,44 @@ st.write('---')
 
 for index, row in filtered_df.iterrows():
     col1, col2, col3 = st.columns(3)
-    with col1:
-        st.header("Name")
-        st.markdown(f"[{row['Name']}]({row['Website']})")
+    col4, col5, col6 = st.columns(3)
+    row1 = st.container()
+    row2 = st.container()
+    with row1:
+        with col1:
+            st.subheader("Name")
+            st.markdown(f"[{row['Name']}]({row['Website']})")
 
-        st.header("Services")
-        st.markdown(markdown_for_service('TEM'))
-        st.markdown(markdown_for_service('SEM'))
-        st.markdown(markdown_for_service('Cryo-EM'))
-        st.markdown(markdown_for_service('Sample prep'))
+        with col2:
+            st.subheader("Type")
+            st.text(row['Type of institution'])
 
-    with col2:
-        st.header("Type")
-        st.text(row['Type of institution'])
+        
+        with col3:
+            st.subheader("Serving")
+            # write markdown for the research category where if it is yes it shows a check emoji and if it is no it shows a cross emoji
+            markdown_for_service('Research')
+            markdown_for_service('Clinical')
 
-        st.header("Contact Info")
-        st.markdown(f"Phone: {row['Phone']}")
-        st.markdown(f"Email: {row['Email']}")
-        if pd.notna(row['Contact Form']):
-            st.markdown(f"Contact Form: {row['Contact Form']}")
+    with row2:
+        with col4:
+            st.subheader("Services")
+            markdown_for_service('TEM')
+            markdown_for_service('SEM')
+            markdown_for_service('Cryo-EM')
+            markdown_for_service('Sample prep')
 
-      
-    with col3:
-        st.header("Serving")
-        # write markdown for the research category where if it is yes it shows a check emoji and if it is no it shows a cross emoji
-        st.markdown(markdown_for_service('Research'))
-        st.markdown(markdown_for_service('Clinical'))
+        with col5:
+            st.subheader("Contact Info")
+            st.markdown(f"Phone: {row['Phone']}")
+            st.markdown(f"Email: {row['Email']}")
+            if pd.notna(row['Contact Form']):
+                st.markdown(f"Contact Form: {row['Contact Form']}")
 
-        st.header("Best way to contact")
-        st.markdown(row['How to get a quote'])
+        
+        with col6:
+            st.subheader("Best way to contact")
+            st.markdown(row['How to get a quote'])
         
 
     with st.expander("More services info"):
