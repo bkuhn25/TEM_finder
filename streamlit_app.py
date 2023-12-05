@@ -126,7 +126,7 @@ with tab2:
     st.markdown("If you want to reset the filters simply refresh the page and everything will reset.")
     st.write('---')
 
-    st.markdown("If you have any issues please reach out, we're here to help!")
+    st.markdown("If you have any issues [please reach out](https://forms.gle/QM9wnpNZALQjGFVK9), we're here to help!")
 
 with tab3:
     st.title("Research is hard enough as it is")
@@ -137,6 +137,18 @@ with tab3:
 
     st.markdown("TEM specifically seems to be in a tough position. You either have expensive private companies that can provide quicker turnaround, or you have universities that can provide cheaper services but with longer and usually inconsistent turnaround times. Our goal is to build a TEM company that provides researchers with university prices and private company turnaround times (ideally faster).")
 
-    st.markdown("If that seems interesting to you, we'd love to hear from you. The first step in this journey is validating our assumption that this is a real need, so if you could take a few minutes to fill out the form below, we'd really appreciate it.")
+    st.markdown("If that seems interesting to you, we'd love to hear from you. The first step in this journey is validating our assumption that this is a real need, so if you could [take a quick minute to fill out this form](https://forms.gle/gt4Qgvip5xjMihFD8), we'd really appreciate it.")
 
-    st.markdown("Either way, we hope you find this tool useful. Let us know if we missed one and we'll add it!")
+    st.markdown("Either way, we hope you find this tool useful. [Let us know if we missed one](https://forms.gle/C5pqh7jE6mosbY1A8) and we'll add it!")
+
+
+
+with tab4:
+    st.title("Let's make TEM better together!")
+    st.markdown("[Tell us what your current situation is and how it could be better](https://forms.gle/gt4Qgvip5xjMihFD8)")
+
+    st.title("Let us know if we missed one")
+    st.markdown("[Submit the missing provider here](https://forms.gle/C5pqh7jE6mosbY1A8)")
+
+    st.title("TEM Finder isn't working right :(")
+    st.markdown("[Tell us what's wrong](https://forms.gle/QM9wnpNZALQjGFVK9)")
