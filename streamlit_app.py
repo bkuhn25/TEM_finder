@@ -13,7 +13,7 @@ csv_path = 'TEM_providers.csv'  # Replace with the path to your CSV file
 df = pd.read_csv(csv_path)
 
 # Set the page config as wide
-st.set_page_config(layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(layout="wide", initial_sidebar_state="auto")
 
 # st.text("Research is hard enough as it is.\nFinding the right TEM provider shouldn't be.")
 
@@ -61,8 +61,10 @@ with tab1:
     for index, row in filtered_df.iterrows():
         col1, col2, col3 = st.columns(3)
         col4, col5, col6 = st.columns(3)
+        col7, col8, col9 = st.columns(3)
         row1 = st.container()
         row2 = st.container()
+        row3 = st.container()
         with row1:
             with col1:
                 st.subheader("Name")
@@ -88,14 +90,25 @@ with tab1:
                 markdown_for_service('Sample prep')
 
             with col5:
+                st.subheader("Pricing per sample")
+                if pd.notna(row['Pricing per sample']):
+                    st.text(f"$ {round(row['Pricing per sample'])}")
+                else:
+                    st.text("Coming soon...")
+            
+            with col6:
+                st.subheader("Best way to contact")
+                st.markdown(row['How to get a quote'])
+
+        with row3:
+            with col7:
                 st.subheader("Contact Info")
                 st.markdown(f"Phone: {row['Phone']}")
                 st.markdown(f"Email: {row['Email']}")
                 if pd.notna(row['Contact Form']):
                     st.markdown(f"Contact Form: {row['Contact Form']}")
-
             
-            with col6:
+            with col8:
                 st.subheader("Best way to contact")
                 st.markdown(row['How to get a quote'])
             
