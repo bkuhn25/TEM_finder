@@ -127,6 +127,14 @@ with tab1:
         with st.expander("More services info"):
             st.markdown(f"{row['Detailed Services']}")
 
+        if pd.notna(row['Additional Pricing information']):
+            with st.expander("More pricing info"):
+                st.markdown(f"{row['Additional Pricing information']}")
+
+        if pd.notna(row['Additional turnaround info']):
+            with st.expander("More turnaround info"):
+                st.markdown(f"{row['Additional turnaround info']}")
+
         if pd.notna(row['Additional Contact Info']):
             with st.expander("More contact info"):
                 st.markdown(f"{row['Additional Contact Info']}")
