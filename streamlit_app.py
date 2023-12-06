@@ -83,6 +83,7 @@ with tab1:
 
         with row2:
             with col4:
+                st.write("#")
                 st.subheader("Services")
                 markdown_for_service('TEM')
                 markdown_for_service('SEM')
@@ -90,6 +91,7 @@ with tab1:
                 markdown_for_service('Sample prep')
 
             with col5:
+                st.write("#")
                 st.subheader("Pricing per sample")
                 if pd.notna(row['Pricing per sample']):
                     st.text(f"$ {round(row['Pricing per sample'])}")
@@ -97,18 +99,25 @@ with tab1:
                     st.text("Coming soon...")
             
             with col6:
-                st.subheader("Best way to contact")
-                st.markdown(row['How to get a quote'])
+                st.write("#")
+                st.subheader("Turnaround")
+                if pd.notna(row['Estimated turnaround (weeks)']):
+                    st.text(f"{row['Estimated turnaround (weeks)']} weeks")
+                else:
+                    st.text("Coming soon...")
 
         with row3:
             with col7:
+                st.write("#")
                 st.subheader("Contact Info")
                 st.markdown(f"Phone: {row['Phone']}")
                 st.markdown(f"Email: {row['Email']}")
                 if pd.notna(row['Contact Form']):
                     st.markdown(f"Contact Form: {row['Contact Form']}")
+                st.write("#")
             
             with col8:
+                st.write("#")
                 st.subheader("Best way to contact")
                 st.markdown(row['How to get a quote'])
             
