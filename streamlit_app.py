@@ -67,9 +67,11 @@ with tab1:
         row3 = st.container()
         with row1:
             with col1:
-                st.subheader("Institution")
-                st.markdown(f"[{row['Name']}]({row['Website']})")
+                # st.subheader("Institution")
+                st.markdown(f"### [{row['Name']}]({row['Website']})")
                 st.text(f"Type: {row['Type of institution']}")
+                if pd.notna(row["City"]) and pd.notna(row["State"]):
+                    st.text(f"Location: {row['City']}, {row['State']}")
 
             with col2:
                 st.subheader("Serving")

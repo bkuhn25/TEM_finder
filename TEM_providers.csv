@@ -1,5 +1,5 @@
-Name,Type of institution,Clinical,Research,TEM,SEM,Cryo-EM,Sample prep,Pricing per sample,Pricing Caveats,Additional Pricing information,Estimated turnaround (weeks),Additional turnaround info,Website,Phone,Email,Contact Form,Detailed Services,Additional Contact Info,How to get a quote
-PennState College of Medicine,University,n/a,yes,yes,yes,yes,yes,n/a,n/a,n/a,n/a,n/a,https://research.med.psu.edu/core-facilities/transmission-electron-microscopy/,717-531-4036,hchen3@pennstatehealth.psu.edu,n/a,"- **TEM Facility Services:**
+Name,Type of institution,Clinical,Research,TEM,SEM,Cryo-EM,Sample prep,Pricing per sample,Pricing Caveats,Additional Pricing information,Estimated turnaround (weeks),Additional turnaround info,Website,Phone,Email,City,State,Contact Form,Detailed Services,Additional Contact Info,How to get a quote
+PennState College of Medicine,University,n/a,yes,yes,yes,yes,yes,n/a,n/a,n/a,n/a,n/a,https://research.med.psu.edu/core-facilities/transmission-electron-microscopy/,717-531-4036,hchen3@pennstatehealth.psu.edu,Hershey,PA,n/a,"- **TEM Facility Services:**
   - Project Consultation
   - Education and Training
     - New User Self-Service
@@ -17,7 +17,7 @@ PennState College of Medicine,University,n/a,yes,yes,yes,yes,yes,n/a,n/a,n/a,n/a
 - **Phone:** 717-531-4036
 - **Email:** hchen3@pennstatehealth.psu.edu
 ",Reach out to manager via phone or email
-University at Buffalo,University,no,yes,yes,no,yes,yes,n/a,n/a,n/a,n/a,n/a,https://medicine.buffalo.edu/centers/hsccf/facilties/electron-microscopy-lab.html,(716) 829-3330,dcm22@buffalo.edu,n/a,"- **High Magnification Imaging:**
+University at Buffalo,University,no,yes,yes,no,yes,yes,n/a,n/a,n/a,n/a,n/a,https://medicine.buffalo.edu/centers/hsccf/facilties/electron-microscopy-lab.html,(716) 829-3330,dcm22@buffalo.edu,Buffalo,NY,n/a,"- **High Magnification Imaging:**
   - Up to 600,000x magnification
 
 - **Post-Embedding Labeling Techniques:**
@@ -37,7 +37,7 @@ services are available for use for a fee by students, faculty, staff, and outsid
 - **Phone:** (716) 829-3330
 - **Fax:** (716) 829-2086
 - **Email:** dcm22@buffalo.edu",Contact Donald MacFarland the lead electron microscopist
-UT Health San Antonio,University,yes,yes,yes,yes,no,yes,n/a,n/a,n/a,n/a,n/a,https://lsom.uthscsa.edu/pathology/reference-labs/electron-microscopy-laboratory/,(210) 567-4055,Lif2@uthscsa.edu,n/a,"- **Clinical Transmission Electron Microscopy:**
+UT Health San Antonio,University,yes,yes,yes,yes,no,yes,n/a,n/a,n/a,n/a,n/a,https://lsom.uthscsa.edu/pathology/reference-labs/electron-microscopy-laboratory/,(210) 567-4055,Lif2@uthscsa.edu,San Antonio,TX,n/a,"- **Clinical Transmission Electron Microscopy:**
   - Renal Pathology Services
   - Muscle Biopsy
   - Nerve Biopsy
@@ -71,7 +71,7 @@ UT Health San Antonio,University,yes,yes,yes,yes,no,yes,n/a,n/a,n/a,n/a,n/a,http
 - **Electron Microscopy Technician:**
   - Monica Alarcon
   - Email: alarconm@uthscsa.edu",Reach out to the lab by phone or contact the staff directly by email
-University of Florida,University,no,yes,yes,yes,yes,yes,n/a,n/a,n/a,n/a,n/a,https://biotech.ufl.edu/electron-microscopy/,(352) 392-1184,ICBR-ElectronMicroscopy@ad.ufl.edu,n/a,"- **Major Service Categories:**
+University of Florida,University,no,yes,yes,yes,yes,yes,n/a,n/a,n/a,n/a,n/a,https://biotech.ufl.edu/electron-microscopy/,(352) 392-1184,ICBR-ElectronMicroscopy@ad.ufl.edu,Gainesville,FL,n/a,"- **Major Service Categories:**
   - Room temperature and cryo transmission and scanning electron microscopy
   - Confocal laser scanning microscopy
   - Sample preparation
@@ -91,7 +91,7 @@ Creative Bio Array,Private,yes,yes,yes,yes,yes,yes,720,n/a,"- **Service Fee per 
    - Measurements
    - Special image requests
    (Cost to be determined - TBD)
-- **Return of Materials + Shipping Fee (if needed)**: TBD",4-8,Turnaround is from time they receive the samples,https://www.creative-bioarray.com/Services/Transmission-Electron-Microscopy.htm,1-631-626-9181,info@creative-bioarray.com,[Transmission Electron Microscopy (TEM) Service](https://www.creative-bioarray.com/inquiry?i_pname=Transmission%20Electron%20Microscopy%20(TEM)%20Service),"- Conventional fixation, dehydration, and embedding
+- **Return of Materials + Shipping Fee (if needed)**: TBD",4-8,Turnaround is from time they receive the samples,https://www.creative-bioarray.com/Services/Transmission-Electron-Microscopy.htm,1-631-626-9181,info@creative-bioarray.com,Shirley,NY,[Transmission Electron Microscopy (TEM) Service](https://www.creative-bioarray.com/inquiry?i_pname=Transmission%20Electron%20Microscopy%20(TEM)%20Service),"- Conventional fixation, dehydration, and embedding
 - Specimen sectioning
 - Negative Staining for samples (Bacteria, virus, Lipids, etc.)
 - Specific nanoparticle staining
@@ -117,7 +117,7 @@ Creative Bio Array,Private,yes,yes,yes,yes,yes,yes,720,n/a,"- **Service Fee per 
 - **Email:**
   - info@creative-bioarray.com
 ",Fill out their contact form
-Charles River,Private,yes,yes,yes,yes,yes,yes,n/a,Must do 30 samples or more,n/a,n/a,n/a,https://www.criver.com/products-services/safety-assessment/pathology-services/electron-microscopy?region=3601,n/a,n/a,[Consult Charles River Pathology Services - How can we support your pathology needs?](https://www.criver.com/consult-pi-sa-how-can-we-support-your-pathology-needs),"- **ELECTRON MICROSCOPY SERVICES:**
+Charles River,Private,yes,yes,yes,yes,yes,yes,n/a,Must do 30 samples or more,n/a,n/a,n/a,https://www.criver.com/products-services/safety-assessment/pathology-services/electron-microscopy?region=3601,n/a,n/a,n/a,n/a,[Consult Charles River Pathology Services - How can we support your pathology needs?](https://www.criver.com/consult-pi-sa-how-can-we-support-your-pathology-needs),"- **ELECTRON MICROSCOPY SERVICES:**
   - Transmission electron microscopy (TEM)
   - Field emission scanning electron microscopy (FE-SEM)
   - Energy-Dispersive X-ray Spectroscopy (EDS)
@@ -143,14 +143,14 @@ Charles River,Private,yes,yes,yes,yes,yes,yes,n/a,Must do 30 samples or more,n/a
   - Detection of sub-cellular therapeutic targets
   - Protein polishing and cryo-EM for the final structure
   - Structural biology to inform drug discovery from hit design through lead optimization",n/a,Fill out their contact form
-SGS,Private,yes,yes,yes,no,no,yes,n/a,n/a,n/a,n/a,n/a,https://www.sgs.com/en-ca/services/transmission-electron-microscopy-services,n/a,n/a,[SGS Contact Form](https://www.sgs.com/en-ca/contact-form),"- Gain accurate visualization of virus particles in biological fluids and in vitro through our TEM services.
+SGS,Private,yes,yes,yes,no,no,yes,n/a,n/a,n/a,n/a,n/a,https://www.sgs.com/en-ca/services/transmission-electron-microscopy-services,n/a,n/a,n/a,n/a,[SGS Contact Form](https://www.sgs.com/en-ca/contact-form),"- Gain accurate visualization of virus particles in biological fluids and in vitro through our TEM services.
 - Acquire direct visualization of particle size and morphology (intra- and extra-cellular).
 - Identify viruses in biological samples.
 - Observe viruses, virus-like particles, adventitious, and other extraneous agents by TEM of at least 200 cell profiles.
 - Identify and characterize virus particles through our negative stain electron microscopy (NSEM) testing.
 - Monitor retroviral load quantities in fermenter bulk harvest material prior to downstream purification/processing using our negative staining techniques.
 - Testing for: Master cell banks, Working cell banks, Cell lines, Culture supernatants, Fermenter bulk harvests, Vaccines.",n/a,Fill out their contact form
-MD Anderson,Private,yes,yes,yes,yes,no,yes,n/a,n/a,n/a,n/a,n/a,https://www.mdanderson.org/research/research-resources/core-facilities/high-resolution-electron-microscopy-facility.html,713-792-9142,rlangley@mdanderson.org,,"- TEM Analysis
+MD Anderson,Private,yes,yes,yes,yes,no,yes,n/a,n/a,n/a,n/a,n/a,https://www.mdanderson.org/research/research-resources/core-facilities/high-resolution-electron-microscopy-facility.html,713-792-9142,rlangley@mdanderson.org,Houston,TX,,"- TEM Analysis
 - SEM Analysis
 ","Investigators requiring electron microscopy services should contact Robert Langley:
 
@@ -158,7 +158,7 @@ MD Anderson,Private,yes,yes,yes,yes,no,yes,n/a,n/a,n/a,n/a,n/a,https://www.mdand
 - **Email:** rlangley@mdanderson.org
 
 to discuss the feasibility of the study.",Contact Rob Langley
-Alpha Nano Tech,Private,yes,yes,yes,yes,yes,yes,n/a,n/a,n/a,n/a,n/a,https://www.alphanano.tech/items/transmission-electron-microscopy-,1 (919) 884-8376,info@alphanano.tech,[AlphaNano Contact Form](https://www.alphanano.tech/contact),"**Our EM Exosome Services:**
+Alpha Nano Tech,Private,yes,yes,yes,yes,yes,yes,n/a,n/a,n/a,n/a,n/a,https://www.alphanano.tech/items/transmission-electron-microscopy-,1 (919) 884-8376,info@alphanano.tech,Durham,NC,[AlphaNano Contact Form](https://www.alphanano.tech/contact),"**Our EM Exosome Services:**
 - Negative staining
 - Immunoelectron microscopy
 - Size distribution analysis
@@ -174,7 +174,7 @@ TEM is the best method to cross-validate particle size and size distribution dat
 Immunogold TEM is a direct and powerful tool for the phenotypic characterization of EVs in addition to traditional TEM and protein analysis.
 
 Our SEM technique allows for high-resolution imaging of particles in the sub-micron range. This means that we can study the fine details of your nanoparticles and exosomes down to their morphology and surface characteristics.",n/a,"Fill out their contact form, call, or email"
-University of Maryland School of Medicine,University,yes,yes,yes,yes,yes,yes,n/a,n/a,n/a,n/a,n/a,https://www.medschool.umaryland.edu/cibr/core/em/,410-706-7992,Coreimaging@umaryland.edu,n/a,"- Conventional TEM sample preparation
+University of Maryland School of Medicine,University,yes,yes,yes,yes,yes,yes,n/a,n/a,n/a,n/a,n/a,https://www.medschool.umaryland.edu/cibr/core/em/,410-706-7992,Coreimaging@umaryland.edu,Baltimore,MD,n/a,"- Conventional TEM sample preparation
   - Embedding in various types of resin
   - Ultrathin sectioning
 
@@ -220,7 +220,7 @@ Michigan State University,University,yes,yes,yes,yes,no,yes,350,Pricing shown is
 
 - Pricing: ~ $350 per sample
 
-For detailed pricing information and a list of services, please visit [this link](https://www.cam.msu.edu/services/).",3-4,It can be 3-4 weeks depending on how many students I (Dr. Withrow) have during the semester (the more students I have the less time I have for service work),https://www.cam.msu.edu/facilities/transmission-electron-microscopy-tem-biological-sciences/,517-355-5004,pastorle@msu.edu,n/a,"# Center for Advanced Microscopy (CAM)
+For detailed pricing information and a list of services, please visit [this link](https://www.cam.msu.edu/services/).",3-4,It can be 3-4 weeks depending on how many students I (Dr. Withrow) have during the semester (the more students I have the less time I have for service work),https://www.cam.msu.edu/facilities/transmission-electron-microscopy-tem-biological-sciences/,517-355-5004,pastorle@msu.edu,East Lansing,MI,n/a,"# Center for Advanced Microscopy (CAM)
 
 CAM offers comprehensive electron microscopy services for:
 
