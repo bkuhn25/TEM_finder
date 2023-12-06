@@ -67,39 +67,41 @@ with tab1:
         row3 = st.container()
         with row1:
             with col1:
-                st.subheader("Name")
+                st.subheader("Institution")
                 st.markdown(f"[{row['Name']}]({row['Website']})")
+                st.text(f"Type: {row['Type of institution']}")
 
             with col2:
-                st.subheader("Type")
-                st.text(row['Type of institution'])
-
-            
-            with col3:
                 st.subheader("Serving")
-                # write markdown for the research category where if it is yes it shows a check emoji and if it is no it shows a cross emoji
                 markdown_for_service('Research')
                 markdown_for_service('Clinical')
 
-        with row2:
-            with col4:
-                st.write("#")
+            
+            with col3:
                 st.subheader("Services")
                 markdown_for_service('TEM')
                 markdown_for_service('SEM')
                 markdown_for_service('Cryo-EM')
                 markdown_for_service('Sample prep')
 
-            with col5:
+        with row2:
+            with col4:
                 st.write("#")
                 st.subheader("Pricing per sample")
                 if pd.notna(row['Pricing per sample']):
                     st.text(f"$ {round(row['Pricing per sample'])}")
                 else:
                     st.text("Coming soon...")
+
+            with col5:
+                st.write("#")
+                if pd.notna(row['Pricing Caveats']):
+                    st.subheader("Pricing caveats")
+                    st.markdown(f"{row['Pricing Caveats']}")
             
             with col6:
                 st.write("#")
+
                 st.subheader("Turnaround")
                 if pd.notna(row['Estimated turnaround (weeks)']):
                     st.text(f"{row['Estimated turnaround (weeks)']} weeks")
